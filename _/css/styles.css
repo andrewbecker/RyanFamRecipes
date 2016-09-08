@@ -1,0 +1,440 @@
+/* line 5, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 1, ../components/sass/_base.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.2em; }
+
+/* line 6, ../components/sass/_base.scss */
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.6em; }
+
+/* line 10, ../components/sass/_base.scss */
+h2 {
+  font-size: 1.5em; }
+
+/* line 13, ../components/sass/_base.scss */
+h3 {
+  font-size: 1.1em; }
+
+/* line 16, ../components/sass/_base.scss */
+h4 {
+  font-size: 1.1em; }
+
+/* line 19, ../components/sass/_base.scss */
+h5 {
+  font-size: 1.1em; }
+
+/* line 22, ../components/sass/_base.scss */
+h6 {
+  font-size: .9em; }
+
+/* line 25, ../components/sass/_base.scss */
+p {
+  font-size: .9em; }
+
+/* line 14, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.5/sass/susy/language/susyone/_grid.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 13, ../components/sass/_layout.scss */
+body {
+  background-color: grey; }
+
+/* line 16, ../components/sass/_layout.scss */
+.wrap {
+  background-color: white; }
+
+/* line 21, ../components/sass/_layout.scss */
+.something {
+  width: 23.72881%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+  margin-right: 5em; }
+  /* line 25, ../components/sass/_layout.scss */
+  .something form input {
+    width: 100%; }
+
+/* line 33, ../components/sass/_layout.scss */
+div.featured p {
+  color: green; }
+
+/* line 36, ../components/sass/_layout.scss */
+.wrap {
+  *zoom: 1;
+  max-width: 61em;
+  _width: 61em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-right: 0px; }
+  /* line 38, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .wrap:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 44, ../components/sass/_layout.scss */
+.lower {
+  clear: both; }
+
+/* line 47, ../components/sass/_layout.scss */
+footer {
+  height: 100px;
+  clear: both; }
+
+/* line 51, ../components/sass/_layout.scss */
+.content {
+  width: 74.57627%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+  font-size: .90em;
+  padding: 2em 1.3em 2em 1.3em;
+  border-radius: 2em 0 0 0;
+  background-color: #FFFBE7;
+  -webkit-box-shadow: -1px -1px 9px 1px #9e9e9e;
+  -moz-box-shadow: -1px -1px 9px 1px #9e9e9e;
+  box-shadow: -1px -1px 9px 1px #9e9e9e;
+  border: 1px solid #CCC; }
+
+/* line 63, ../components/sass/_layout.scss */
+.sidebar {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  font-size: .7em; }
+  @media (max-width: 720px) {
+    /* line 63, ../components/sass/_layout.scss */
+    .sidebar {
+      width: 23.72881%;
+      float: left;
+      margin-right: 1.69492%;
+      display: inline; } }
+
+/* line 70, ../components/sass/_layout.scss */
+ol {
+  list-style-type: decimal;
+  padding-left: 20px; }
+
+/* line 75, ../components/sass/_layout.scss */
+ul {
+  padding-left: 20px; }
+
+/* line 84, ../components/sass/_layout.scss */
+#breadcrumb {
+  font-size: 1em;
+  margin-top: -1em;
+  margin-bottom: 1em; }
+  /* line 88, ../components/sass/_layout.scss */
+  #breadcrumb p {
+    display: inline;
+    font-size: 1em;
+    margin-right: 5px; }
+  /* line 93, ../components/sass/_layout.scss */
+  #breadcrumb ul {
+    width: 100%;
+    margin-bottom: 25px; }
+    /* line 96, ../components/sass/_layout.scss */
+    #breadcrumb ul img {
+      margin-bottom: -3px;
+      margin-left: 3px; }
+    /* line 100, ../components/sass/_layout.scss */
+    #breadcrumb ul img:hover {
+      cursor: pointer; }
+    /* line 103, ../components/sass/_layout.scss */
+    #breadcrumb ul li {
+      font-size: .8em;
+      display: inline;
+      padding: 3px 7px;
+      border: 1px solid red;
+      margin-right: 5px; }
+    /* line 110, ../components/sass/_layout.scss */
+    #breadcrumb ul li:last-child {
+      margin-right: 0px; }
+
+/* line 1, ../components/sass/_form.scss */
+form {
+  clear: both;
+  margin-top: 0px; }
+  /* line 4, ../components/sass/_form.scss */
+  form label {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    margin-bottom: 10px;
+    text-align: right;
+    clear: left; }
+  /* line 11, ../components/sass/_form.scss */
+  form input, form textarea {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    margin-bottom: 10px; }
+  /* line 15, ../components/sass/_form.scss */
+  form input[type="submit"] {
+    clear: both;
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    margin-left: 50.84746%; }
+
+/* line 21, ../components/sass/_form.scss */
+#recipeinsert {
+  margin-top: 30px; }
+  /* line 24, ../components/sass/_form.scss */
+  #recipeinsert input, #recipeinsert textarea {
+    padding: 5px;
+    font-size: .9em; }
+
+/* line 1, ../components/sass/_header.scss */
+header {
+  margin-bottom: 20px;
+  padding-top: 20px; }
+  /* line 6, ../components/sass/_header.scss */
+  header form input {
+    font-size: .8em;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #CCC; }
+  /* line 15, ../components/sass/_header.scss */
+  header nav {
+    clear: both;
+    margin-top: 20px; }
+    /* line 20, ../components/sass/_header.scss */
+    header nav ul li {
+      display: inline;
+      padding-right: 15px;
+      margin-left: 15px; }
+      /* line 25, ../components/sass/_header.scss */
+      header nav ul li a {
+        text-decoration: none;
+        color: #AAA; }
+      /* line 29, ../components/sass/_header.scss */
+      header nav ul li a:hover {
+        color: blue; }
+    /* line 33, ../components/sass/_header.scss */
+    header nav ul li:first-child {
+      margin-left: 0px; }
+    /* line 36, ../components/sass/_header.scss */
+    header nav ul li:last-child {
+      padding-right: 0px; }
+
+/* line 1, ../components/sass/_sidebar.scss */
+.sidebar {
+  background-color: #555; }
+  /* line 4, ../components/sass/_sidebar.scss */
+  .sidebar h2 {
+    padding: 10px 0px 10px 8px;
+    border-top: 2px solid white;
+    color: white; }
+  /* line 10, ../components/sass/_sidebar.scss */
+  .sidebar ul {
+    padding: 10px 0px 10px 10px;
+    text-align: left;
+    background-color: #BBB;
+    border-top: 2px solid white; }
+    /* line 16, ../components/sass/_sidebar.scss */
+    .sidebar ul li a {
+      color: #008000; }
+  /* line 21, ../components/sass/_sidebar.scss */
+  .sidebar img {
+    margin-bottom: -4px; }
+  /* line 24, ../components/sass/_sidebar.scss */
+  .sidebar input[type="checkbox"] {
+    margin-bottom: 0px;
+    width: 15px; }
+
+/* line 29, ../components/sass/_sidebar.scss */
+.rotated {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -moz-transform: rotate(180deg);
+  /* Firefox */
+  -webkit-transform: rotate(180deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(180deg);
+  /* Opera */ }
+
+/* line 2, ../components/sass/_content.scss */
+.content h2 {
+  margin-bottom: 10px;
+  font-weight: 600; }
+  /* line 5, ../components/sass/_content.scss */
+  .content h2 a {
+    color: #E69400; }
+  /* line 8, ../components/sass/_content.scss */
+  .content h2 a:hover {
+    color: #555; }
+/* line 12, ../components/sass/_content.scss */
+.content h3 {
+  margin-bottom: 15px; }
+/* line 15, ../components/sass/_content.scss */
+.content p {
+  margin-bottom: 3px;
+  font-weight: bold; }
+/* line 19, ../components/sass/_content.scss */
+.content ul {
+  margin-bottom: 10px; }
+/* line 22, ../components/sass/_content.scss */
+.content ol {
+  margin-left: 20px; }
+/* line 25, ../components/sass/_content.scss */
+.content .recipe {
+  clear: left; }
+  /* line 28, ../components/sass/_content.scss */
+  .content .recipe img {
+    float: left;
+    margin-top: -10px; }
+  /* line 32, ../components/sass/_content.scss */
+  .content .recipe p {
+    font-weight: normal;
+    padding-left: 85px; }
+  /* line 36, ../components/sass/_content.scss */
+  .content .recipe h2 {
+    padding-left: 85px; }
+  /* line 40, ../components/sass/_content.scss */
+  .content .recipe .horizline {
+    width: 90%;
+    height: 2px;
+    background-color: #999;
+    margin: 0px auto;
+    clear: both; }
+/* line 49, ../components/sass/_content.scss */
+.content #navigation .prev {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 33.89831%; }
+/* line 53, ../components/sass/_content.scss */
+.content #navigation .page-number {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  text-align: center; }
+/* line 57, ../components/sass/_content.scss */
+.content #navigation .next {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline; }
+/* line 60, ../components/sass/_content.scss */
+.content #navigation .not-active {
+  pointer-events: none;
+  cursor: default;
+  color: grey;
+  text-decoration: none; }
+
+/* line 1, ../components/sass/_overlay.scss */
+#overlay {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 16.94915%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000000;
+  margin-top: 70px;
+  border: 3px solid red;
+  padding: 8%;
+  background-color: white;
+  opacity: 0.9;
+  line-height: 1.5em;
+  font-size: .7em; }
+  /* line 16, ../components/sass/_overlay.scss */
+  #overlay h3, #overlay ul {
+    margin-bottom: 10px; }
+  /* line 19, ../components/sass/_overlay.scss */
+  #overlay ol {
+    overflow: hidden; }
+  /* line 23, ../components/sass/_overlay.scss */
+  #overlay #clickable {
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+
+/* line 29, ../components/sass/_overlay.scss */
+div.blurry {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* required for opacity to work in IE */ }

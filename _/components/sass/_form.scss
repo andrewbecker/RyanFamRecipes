@@ -1,0 +1,28 @@
+form {
+	clear: both;
+	margin-top: 0px;
+	label{
+		@include span-columns(4);
+		margin-bottom: 10px;
+		text-align: right;
+		clear: left;
+	}
+
+	input, textarea{
+		@include span-columns(6);
+		margin-bottom: 10px;
+	}
+	input[type="submit"]{
+		clear: both;
+		@include span-columns(2);
+		@include pre(6);
+	}
+}
+#recipeinsert {
+	margin-top: 30px;
+
+	input,textarea {
+		padding: 5px;
+		font-size: .9em;
+	}
+}

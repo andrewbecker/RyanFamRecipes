@@ -1,0 +1,67 @@
+.content {
+	h2 {
+		margin-bottom: 10px;
+		font-weight: 600;
+		a{
+			color: #E69400;
+		}
+		a:hover {
+			color: #555;
+		}
+	}
+	h3 {
+		margin-bottom: 15px;
+	}
+	p {
+		margin-bottom: 3px;
+		font-weight: bold;
+	}
+	ul {
+		margin-bottom: 10px;
+	}
+	ol {
+		margin-left: 20px;
+	}
+	.recipe {
+			clear: left;
+
+		img{
+			float: left;
+			margin-top: -10px;
+		}
+		p {
+			font-weight: normal;
+			padding-left: 85px;
+		}
+		h2 {
+			padding-left: 85px;
+		}
+
+		.horizline{
+			width: 90%;
+			height: 2px;
+			background-color: #999;
+			margin: 0px auto;
+			clear: both;
+		}
+	}
+	#navigation{
+		.prev {
+			@include span-columns(1);
+			@include pre(4);
+		}
+		.page-number {
+			@include span-columns(2);
+			text-align: center;
+		}
+		.next {
+			@include span-columns(1);
+		}
+		.not-active {
+		   pointer-events: none;
+		   cursor: default;
+		   color: grey;
+		   text-decoration: none;
+		}
+	}
+}

@@ -1,0 +1,115 @@
+//Susy setup ----------------------------------------
+$total-columns: 12;
+$column-width: 4em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
+@include border-box-sizing;
+
+$small: 30em;
+$medium: 47em;
+$large: 75em;
+
+body {
+	background-color: grey;
+}
+.wrap {
+	background-color: white;
+}
+
+
+.something {
+	@include span-columns(3 omega);
+	margin-right: 5em;
+	form {
+		input {
+			width:100%;
+		}
+	}
+}
+
+
+div.featured {
+	p{color: green;}
+}
+
+.wrap {
+	@include container;
+	//@include susy-grid-background;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-right: 0px;
+}
+
+.lower {
+	clear: both;
+}
+footer {
+	height: 100px;
+	clear: both;
+}
+.content {
+	@include span-columns(9 omega);
+	font-size: .90em;
+	padding: 2em 1.3em 2em 1.3em;
+	border-radius: 2em 0 0 0;
+	background-color: #FFFBE7;
+	-webkit-box-shadow: -1px -1px 9px 1px rgba(158,158,158,1);
+-moz-box-shadow: -1px -1px 9px 1px rgba(158,158,158,1);
+box-shadow: -1px -1px 9px 1px rgba(158,158,158,1);
+	border: 1px solid #CCC;
+
+}
+.sidebar {
+	@include span-columns(2);
+	font-size: .7em;
+	@media (max-width: 720px) {
+		@include span-columns(3);
+	}	
+}
+ol {
+	list-style-type: decimal;
+	padding-left: 20px;
+}
+
+ul {
+	padding-left: 20px;
+}
+.recipe {
+	//border-bottom: 1px solid black;
+}
+.recipe:last-child{
+	//border-bottom: none;
+}
+#breadcrumb {
+	font-size: 1em;
+	margin-top: -1em;
+	margin-bottom: 1em;
+	p {
+		display: inline;
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	ul {
+		width: 100%;
+		margin-bottom: 25px;
+		img {
+			margin-bottom: -3px;
+			margin-left: 3px;
+		}
+		img:hover{
+			cursor: pointer;
+		}
+		li {
+			font-size: .8em;
+			display: inline;
+			padding: 3px 7px;
+			border: 1px solid red;
+			margin-right: 5px;
+		}
+		li:last-child {
+			margin-right: 0px;
+		}
+	}
+}
+
